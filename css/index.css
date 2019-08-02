@@ -1,0 +1,1227 @@
+
+/* ..................................................................................................... */
+/* HOME */
+
+.contrasthome{  
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cthome{
+    width: 180px;
+}
+
+.boxhome{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.buttonhome{
+    display: flex;
+    justify-content: center;
+}
+
+.subhome{
+    width:155px;
+    height:42px;
+    background-color: #767B91;
+    color: white;
+}
+.emailhome{
+    text-align: center;
+    border: 3px solid black;
+}
+
+input{
+    border-radius: 20px; 
+    height: 30px;
+    width: 400px;
+    font-family: 'Ubuntu', sans-serif; 
+    text-align: center;
+    border: 0;
+    border-bottom: 1.3px solid white;
+    font-size:1em;
+}
+
+input[type="submit"]:hover{
+    background:#e63946;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:#e63946;
+    cursor: pointer;
+}
+
+img[src="img/AltoConstraste.png"]:hover{
+    cursor: pointer;
+}
+
+p{
+    margin: 0;
+}
+
+.forgethome{
+    color: #2A324B;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    opacity:0.7;
+    margin-top: 61px;
+    margin-bottom: 30px;
+}
+
+.cadastrohome{
+    margin-top: 30px;
+    width:192px;
+    height:62px;
+    background-color: #767B91;
+    color: white;
+    border-radius: 50px;
+}
+
+.txthome{
+    color: #2A324B;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 668px;
+    text-align: center;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+input:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+
+/* ..................................................................................................... */
+/* cadastro */
+
+#pai{
+    font-family: Ubuntu;
+}
+
+#retanguloPessoal{
+    position: absolute;
+    width: 682px;
+    height: 367px;
+    left: 29px;
+    top: 218px;
+
+    background: #767B91;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#cadastroCad{
+    position: absolute;
+    width: 438px;
+    height: 94px;
+    left: 29px;
+    top: 69px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 110px;
+
+    color: #2A324B;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#nomeCad{
+    position: absolute;
+    width: 632px;
+    height: 47px;
+    left: 54px;
+    top: 267px;
+
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#infoCad{
+    position: absolute;
+    width: 679px;
+    height: 78px;
+    left: 729px;
+    top: 85px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #2A324B;
+}
+
+#nome{
+    position: absolute;
+    width: 152px;
+    height: 38px;
+    left: 66px;
+    top: 229px;
+
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E1E5EE;
+}
+
+#email{
+    position: absolute;
+    width: 152px;
+    height: 38px;
+    left: 66px;
+    top: 316px;
+
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E1E5EE;
+}
+
+#emailCad{
+
+    position: absolute;
+    width: 632px;
+    height: 47px;
+    left: 54px;
+    top: 353px;
+
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#telefone{
+    position: absolute;
+    width: 152px;
+    height: 38px;
+    left: 66px;
+    top: 411px;
+
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E1E5EE;
+}
+
+#telefoneCad{
+    position: absolute;
+    width: 199px;
+    height: 47px;
+    left: 54px;
+    top: 449px;
+
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#estado{
+    position: absolute;
+    width: 152px;
+    height: 38px;
+    left: 309px;
+    top: 411px;
+
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E1E5EE;
+}
+
+#estadoCad{
+    position: absolute;
+    width: 187px;
+    height: 47px;
+    left: 292px;
+    top: 449px;
+
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#cidade{
+    position: absolute;
+    width: 152px;
+    height: 38px;
+    left: 523px;
+    top: 411px;
+
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E1E5EE;
+}
+
+#cidadeCad{
+    position: absolute;
+    width: 174px;
+    height: 47px;
+    left: 512px;
+    top: 449px;
+
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#dataNascimento{
+    position: absolute;
+    width: 204px;
+    height: 38px;
+    left: 61px;
+    top: 526px;
+
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E1E5EE;
+}
+
+#dia{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 307px;
+    top: 524px;
+
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E1E5EE;
+}
+
+#diaCad{
+    position: absolute;
+    width: 80px;
+    height: 47px;
+    left: 352px;
+    top: 517px;
+
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#mes{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 441px;
+    top: 524px;
+    
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #E1E5EE;    
+}
+
+#mesCad{
+    position: absolute;
+    width: 75px;
+    height: 47px;
+    left: 487px;
+    top: 517px;
+    
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#ano{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 570px;
+    top: 522px;
+    
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #E1E5EE;
+}
+
+#anoCad{
+    position: absolute;
+    width: 70px;
+    height: 47px;
+    left: 616px;
+    top: 517px;
+    
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#retanguloEscolaridade{
+    position: absolute;
+    width: 682px;
+    height: 311px;
+    left: 29px;
+    top: 597px;
+
+    background: #767B91;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#nivel{
+    position: absolute;
+    width: 194px;
+    height: 38px;
+    left: 66px;
+    top: 613px;
+    
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #E1E5EE;    
+}
+
+#nivelCad{
+    position: absolute;
+    width: 632px;
+    height: 47px;
+    left: 54px;
+    top: 651px;
+    
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#area{
+    position: absolute;
+    width: 152px;
+    height: 38px;
+    left: 66px;
+    top: 705px;
+
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E1E5EE;
+}
+
+#areaCad{
+    position: absolute;
+    width: 632px;
+    height: 47px;
+    left: 54px;
+    top: 743px;
+
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#atuacao{
+    position: absolute;
+    width: 194px;
+    height: 38px;
+    left: 66px;
+    top: 798px;
+    
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #E1E5EE;
+}
+
+#atuacaoCad{
+    position: absolute;
+    width: 632px;
+    height: 47px;
+    left: 55px;
+    top: 832px;
+    
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#retanguloDeficiencia{
+    position: absolute;
+    width: 682px;
+    height: 690px;
+    left: 729px;
+    top: 218px;
+
+    background: #767B91;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#deficiencia{
+    position: absolute;
+width: 152px;
+height: 38px;
+left: 775px;
+top: 229px;
+
+font-family: Ubuntu Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #E1E5EE;
+}
+
+#deficienciaCad{
+    position: absolute;
+    width: 617px;
+    height: 47px;
+    left: 763px;
+    top: 267px;
+
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+#instituicao{
+    position: absolute;
+width: 605px;
+height: 38px;
+left: 775px;
+top: 320px;
+
+font-family: Ubuntu Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #E1E5EE;
+}
+
+#instituicaoCad{
+    position: absolute;
+width: 617px;
+height: 47px;
+left: 763px;
+top: 353px;
+
+background: #E1E5EE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+}
+
+#habilidades{
+    position: absolute;
+width: 596px;
+height: 40px;
+left: 775px;
+top: 411px;
+
+font-family: Ubuntu Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #E1E5EE;
+}
+
+#habilidadesCad{
+    position: absolute;
+width: 617px;
+height: 111px;
+left: 763px;
+top: 449px;
+
+background: #E1E5EE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+}
+
+#experiencia{
+    position: absolute;
+width: 596px;
+height: 40px;
+left: 775px;
+top: 568px;
+
+font-family: Ubuntu Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #E1E5EE;
+}
+
+#experienciaCad{
+    position: absolute;
+width: 617px;
+height: 111px;
+left: 763px;
+top: 608px;
+
+background: #E1E5EE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+}
+
+#infoadicional{
+    position: absolute;
+    width: 596px;
+    height: 40px;
+    left: 775px;
+    top: 729px;
+
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E1E5EE;
+}
+
+#infoadicionalCad{
+    position: absolute;
+    width: 617px;
+    height: 111px;
+    left: 763px;
+    top: 768px;
+
+    background: #E1E5EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+}
+
+#cadastrar{
+    position: absolute;
+    width: 131px;
+    height: 36px;
+    left: 656px;
+    top: 956px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFF8F8;
+}
+
+#botao{
+    position: absolute;
+    width: 192px;
+    height: 62px;
+    left: 624px;
+    top: 941px;
+
+    background: #E63946;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 58px;
+}
+
+#nomeInput{
+    width: 632px;
+    height: 47px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#emailInput{
+    width: 632px;
+    height: 47px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#telefoneInput{
+    width: 199px;
+    height: 47px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#estadoInput{
+    width: 187px;
+    height: 47px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#cidadeInput{
+    width: 174px;
+    height: 47px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#diaInput{
+    width: 38px;
+    height: 38px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 15px;
+    margin-top:4px;
+}
+
+#mesInput{
+    width: 38px;
+    height: 38px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 15px;
+    margin-top:4px;
+}
+
+#anoInput{
+    width: 38px;
+    height: 38px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 15px;
+    margin-top:4px;
+}
+
+#nivelInput{
+    width: 632px;
+    height: 47px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#areaInput{
+    width: 632px;
+    height: 47px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#atuacaoInput{
+    width: 632px;
+    height: 47px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#deficienciaInput{
+    width: 617px;
+    height: 47px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#instituicaoInput{
+    width: 617px;
+    height: 47px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#habilidadesInput{
+    width: 617px;
+    height: 111px;
+    border-radius: 21px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#experienciaInput{
+    width: 617px;
+    height: 111px;
+    border-radius: 21px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#infoadicionalInput{
+    width: 617px;
+    height: 111px;
+    border-radius: 21px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#pai{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-left: 12.5%;
+
+}
+
+/* ..................................................................................................... */
+/* joao */
+#retangulojoao{
+    position: absolute;
+    width: 453px;
+    height: 1017px;
+    left: -113px;
+    top: 1px;
+    background: #4A4E69;
+}
+
+#nomejoao{
+    position: absolute;
+    width: 381px;
+    height: 45px;
+    left: -77px;
+    top: 39px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: right;
+
+    color: #EEEEEE;
+}
+
+#emailjoao{
+    position: absolute;
+    width: 381px;
+    height: 45px;
+    left: 20px;
+    top: 84px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #C7CCDB;
+}
+
+#propostasjoao{
+    position: absolute;
+width: 277px;
+height: 31px;
+left: 25px;
+top: 305px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+
+color: #EEEEEE;
+}
+
+#vagasjoao{
+    position: absolute;
+width: 277px;
+height: 31px;
+left: 25px;
+top: 364px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+
+color: #EEEEEE;
+}
+
+#alterarjoao{
+    position: absolute;
+width: 277px;
+height: 31px;
+left: 25px;
+top: 431px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+
+color: #EEEEEE;
+}
+
+#sairjoao{
+    position: absolute;
+width: 277px;
+height: 31px;
+left: 25px;
+top: 494px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+
+color: #EEEEEE;
+}
+
+#retangulopropostasjoao{
+position: absolute;
+width: 764px;
+height: 200px;
+left: 483px;
+top: 49px;
+
+background: #DAD7CD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 23px;
+}
+
+#elipse1joao{
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 502px;
+top: 65px;
+
+background: #C9ADA7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#elipse2joao{
+    position: absolute;
+width: 15px;
+height: 15px;
+left: 1215px;
+top: 65px;
+
+background: #C9ADA7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#inlocojoao{
+    position: absolute;
+width: 392px;
+height: 33px;
+left: 669px;
+top: 64px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #22223B;
+
+
+}
+
+#retangulopropostas2joao{
+    position: absolute;
+width: 764px;
+height: 200px;
+left: 483px;
+top: 304px;
+
+background: #DAD7CD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 23px;
+}
+
+#elipse3joao{
+    position: absolute;
+width: 15px;
+height: 15px;
+left: 502px;
+top: 320px;
+
+background: #C9ADA7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#elipse4joao{
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 1215px;
+top: 320px;
+
+background: #C9ADA7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#shaweejoao{
+    position: absolute;
+width: 392px;
+height: 33px;
+left: 669px;
+top: 315px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #22223B;
+
+
+}
+
+#retangulopropostas3joao{
+    position: absolute;
+width: 764px;
+height: 200px;
+left: 483px;
+top: 544px;
+
+background: #DAD7CD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 23px;
+}
+
+#elipse5joao{
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 502px;
+    top: 559px;
+    
+    background: #C9ADA7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#elipse6joao{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1215px;
+    top: 559px;
+    
+    background: #C9ADA7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#githubjoao{
+
+position: absolute;
+width: 392px;
+height: 33px;
+left: 669px;
+top: 550px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #22223B;
+}
+
+#retangulopropostas4joao{
+    position: absolute;
+width: 764px;
+height: 200px;
+left: 483px;
+top: 784px;
+
+background: #DAD7CD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 23px;
+}
+
+#elipse7joao{
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 501px;
+top: 799px;
+
+background: #C9ADA7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#elipse8joao{
+    position: absolute;
+width: 15px;
+height: 15px;
+left: 1214px;
+top: 799px;
+
+background: #C9ADA7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#aguardandojoao{
+    position: absolute;
+width: 392px;
+height: 33px;
+left: 669px;
+top: 867px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #E63946;
+
+
+}
+/* ..................................................................................................... */
+/* ALTO CONTRASTE */
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+    background: black !important;
+    color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+
+.contrast a{
+    color: yellow !important;
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}

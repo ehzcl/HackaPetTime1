@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap" rel="stylesheet">
+    <script src="contrast.class.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var imageid = 'a';
+
+        function trocar() {
+            var image = document.getElementById('logo');
+            var marca = document.getElementById('imgaltocontraste');
+            if (imageid == 'n') {
+                image.src = "img/ContrataAlt.png"
+                marca.src = "img/AltoContrasteAlt.png"
+                imageid = 'a'
+            } else {
+                image.src = "img/Contrata.png"
+                marca.src = "img/AltoContraste.png"
+                imageid = 'n'
+            }
+        }
+
+    </script>
+</head>
+
+<body class="contrast" style="background-color: #e1e5ee">
+    <a href="https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn?hl=pt-BR"> baixe esta
+        extensão para suporte à leitura de texto</a>
+    <div class="boxhome">
+        <ul>
+            <img id="logo" src="img/ContrataAlt.png">
+        </ul>
+    </div>
+
+    <form>
+        <!--action="" method="POST" - BACKEND AQUI-->
+        <div class="boxhome">
+            <input type="text" class="emailhome" name="email" placeholder="Digite seu melhor email">
+        </div>
+
+        <div class="boxhome">
+            <input type="password" class="emailhome" name="senha" placeholder="Digite sua senha">
+        </div>
+
+        <div class="buttonhome">
+            <a href="joao.html"> <input type="submit" class="subhome" value="Entrar" onclick="logar(event)"></a>
+            <!---->
+        </div>
+    </form>
+
+    <div class="forgethome">
+        <a>Esqueci minha senha</a>
+    </div>
+
+    <div class="txthome">
+        <p>Caso ainda não tenha uma conta, venha fazer parte desse grupo que quer mudar o mercado de trabalho.</p>
+    </div>
+
+    <div class="buttonhome">
+        <a href="cadastro.html"> <input type="submit" class="cadastrohome" value="Cadastre-se" tabIndex="-1"></a>
+    </div>
+
+    <div class="contrasthome" style="margin-top: -850px;">
+        <a href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast();trocarLogo();trocarContraste();"
+            onkeydown="window.toggleContrast()">
+            <img id="imgaltocontraste" src="img/AltoContrasteAlt.png" class="cthome"></a>
+    </div>
+</body>
+
+</html>
